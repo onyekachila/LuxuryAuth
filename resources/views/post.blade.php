@@ -102,11 +102,6 @@
         </div>
     </section>
 
-
-
-
-
-
 @endsection
 
 @section('footer')
