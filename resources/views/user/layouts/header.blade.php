@@ -216,6 +216,7 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 								</ul>
 							</li>
 
+                            <li><a href="codes.html"> About Code</a></li>
 							<li><a href="codes.html"> Redeem Code</a></li>
 							<li><a href="contact.html">Contact Us</a></li>
 						</ul>

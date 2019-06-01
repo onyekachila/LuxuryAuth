@@ -4,8 +4,6 @@
 
 @endsection
 
-
-
 @section('main-content')
 <!-- Post Content -->
 <!-- banner -->

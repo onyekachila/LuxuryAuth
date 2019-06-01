@@ -13,9 +13,10 @@
 
 // User Routes
 Route::group(['namespace' => 'User'],function(){
-	Route::get('/','HomeController@index');
-
+    Route::get('/','HomeController@index');
 });
+
+
 
 //Admin Routes
 Route::group(['namespace' => 'Admin'],function(){
@@ -40,4 +41,10 @@ Route::group(['namespace' => 'Admin'],function(){
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'PagesController@index')->name('home');
+Route::get('/about', 'PagesController@getAbout')->name('about');
+Route::get('/post', 'PagesController@getPost')->name('post');
+Route::get('/contact', 'PagesController@getContact')->name('contact');
+
+
+
